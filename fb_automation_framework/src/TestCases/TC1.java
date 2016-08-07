@@ -14,8 +14,10 @@ public class TC1 {
 		drv=new FirefoxDriver();
 		drv.get("www.facebook.com");
 		appModules.LoginAccount.Execuete(drv);
+System.out.println("==============****");
 		System.out.println("This is my first test case");
-                System.out.println("==============");
+                System.out.println("==============****");
+
 		drv.quit();
 		
 	}

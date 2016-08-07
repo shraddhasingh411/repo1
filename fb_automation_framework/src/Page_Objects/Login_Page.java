@@ -12,6 +12,8 @@ public class Login_Page {
 	{
 		ele= driver.findElement(By.id("email"));
 		return ele;
+
+		System.out.println("in username field");
 	}
 	
 	public static WebElement text_pwd(WebDriver driver)
